@@ -1,3 +1,4 @@
-.DappConnector {
-  
+.Header {
+  display: flex;
+  flex-direction: row;
 }

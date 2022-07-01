@@ -7,11 +7,76 @@
   </head>
 
   <body>
-    <div class="LayoutP">
-      <div class="HeaderP">
-        Propose Page
+    <div id="ProposeLayout">
+      <div id="Header">
+
+        <div id="logo">
+          <img src="Pictures/templogo.png" alt="TokenSwapperLogo" width="50";
+          height="50">
+        </div>
+
+        <div id="Title">
+          <a href="index.html" id="GoHome">TokenSwapper.io</a>
+        </div>
+
+        <div id="DappConnector">
+          <button onclick="myFunction()">Connect Wallet</button>
+          <element onclick="myScript">
+        </div>
+
       </div>
+
+      <div id="ProposeMainPage">
+
+        <div id="TopHalfText">
+          <div id="WalletAddressText">
+            Your Wallet Address
+          </div>
+
+          <div id="CPWalletAddressText">
+            Counter-Party Wallet Address
+          </div>
+        </div>
+
+        <div id="TopHalf">
+          <div id="ItemsToTrade">
+
+          </div>
+
+          <div id="ProposeTransaction">
+            <button onclick="proposeTransaction()" id="ProposeTransactionButton">Propose Transaction</button>
+          </div>
+
+          <div id="ItemsToRecieve">
+
+          </div>
+        </div>
+
+        <div id="BottomHalfText">
+          <div id="BottomText1">
+            Your Available Assets
+          </div>
+
+          <div id="BottomText2">
+            <input type="text" id="CPWalletAddress" placeholder="Enter Counter-Party Wallet Address:">
+          </div>
+        </div>
+
+        <div id="BottomHalf">
+          <div id="ItemsAvailable">
+          </div>
+
+          <div id="SearchWallet">
+            <button onclick="SearchWallet()" id="SearchWalletButton">Search Wallet</button>
+          </div>
+
+          <div id="CPItemsAvailable">
+          </div>
+        </div>
+
+      </div>
+
+
     </div>
   </body>
-
 </html>

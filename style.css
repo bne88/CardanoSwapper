@@ -3,22 +3,31 @@ html, body {
   padding:0;
 }
 
-.Layout {
+#MainLayout {
   height: 800px;
   width: 100%;
   align-items: stretch;
-
   flex-direction: column;
 }
-.Header {
+#Header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   background-color: #bebebe;
-  height: 10%
+  height: 10%;
 }
 
-.MainPage {
+#DappConnector {
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+#logo {
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+#MainPage {
   display: flex;
   flex-direction:  row;
   justify-content: space-around;
@@ -27,12 +36,12 @@ html, body {
   height: 80%;
 }
 
-.Footer {
+#Footer {
   background-color: #bebebe;
   height: 10%;
 }
 
-.button {
+#button {
  display: inline-block;
  padding: 10px 20px;
  text-align: center;
@@ -41,4 +50,155 @@ html, body {
  background-color: #7aa8b7;
  border-radius: 6px;
  outline: none;
+}
+
+/* Proposal Page Styling */
+#ProposeLayout {
+  height: 800px;
+  width: 100%;
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+}
+
+#ProposeMainPage {
+  height: 90%;
+  background-color: #d6ecf3;
+  display: flex;
+  flex-direction: column;
+}
+
+#TopHalfText {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  height: 6%;
+  width: 100%;
+  text-align: center;
+}
+
+#WalletAddressText {
+  height: 100%;
+  width: 50%;
+}
+
+#CPWalletAddressText {
+  height: 100%;
+  width: 50%;
+}
+
+#TopHalf {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+
+}
+
+#ItemsToTrade {
+  border-radius: 15px;
+  margin: 5%;
+  height: 95%;
+  width: 40%;
+  background-color: #c6e4ee;
+}
+
+#ItemsToRecieve {
+  border-radius: 15px;
+  margin: 5%;
+  height: 95%;
+  width: 40%;
+  background-color: #c6e4ee;
+}
+
+#BottomHalfText {
+  display: flex;
+  flex-direction: row;
+  height: 6%;
+  width: 100%;
+  text-align: center;
+  padding-top: 2%;
+}
+
+#BottomText1 {
+  height: 100%;
+  width: 50%;
+  vertical-align: middle;
+}
+
+#BottomText2 {
+  height: 100%;
+  width: 50%;
+}
+
+#BottomHalf {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40%;
+  flex-shrink: 0;
+  justify-content: space-around;
+}
+
+#ItemsAvailable {
+  border-radius: 15px;
+  margin: 5%;
+  height: 95%;
+  width: 40%;
+  background-color: #c6e4ee;
+}
+
+#CPItemsAvailable { /* CP: Counter Party */
+  border-radius: 15px;
+  margin: 5%;
+  height: 95%;
+  width: 40%;
+  background-color: #c6e4ee;
+}
+
+#SearchWalletButton {
+ display: inline-block;
+ padding: 10px 20px;
+ text-align: center;
+ text-decoration: none;
+ color: black;
+ background-color: #7aa8b7;
+ border-radius: 6px;
+ outline: none;
+}
+
+#ProposeTransactionButton {
+   display: inline-block;
+   padding: 10px 2px;
+   text-align: center;
+   text-decoration: none;
+   color: black;
+   background-color: #7aa8b7;
+   border-radius: 6px;
+   outline: none;
+ }
+
+/* Additional Code */
+
+#GoHome {
+  margin-top: 10%;
+  display: inline-block;
+  font-size: 24px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#CPWalletAddress {
+  font-size: 14px;
+  border: none;
+  outline: none;
+  padding: 12px;
+  background-color: #c6e4ee;
+  width: 250px;
+  border-radius: 3px;
 }
